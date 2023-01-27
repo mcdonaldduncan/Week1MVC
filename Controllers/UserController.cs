@@ -32,7 +32,7 @@ namespace Week1MVC.Controllers
             try
             {
 
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Details), new {ID = 1});
             }
             catch
             {
